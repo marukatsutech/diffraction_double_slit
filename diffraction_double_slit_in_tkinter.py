@@ -191,7 +191,7 @@ scat_blue_s = ax.scatter(x_blue, y_blue, c='blue', marker='o', s=4)
 
 # Tkinter
 root = tk.Tk()
-root.title("Sample3")
+root.title("Double slit diffraction")
 canvas = FigureCanvasTkAgg(fig, root)
 canvas.get_tk_widget().pack(expand=True, fill='both')
 
