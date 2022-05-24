@@ -1,6 +1,7 @@
 # diffraction_double_slit
   
-![image_diffraction_double_slit]([https://github.com/marukatsutech/sine_wave_animation/blob/master/image_sine_wave.png](https://github.com/marukatsutech/diffraction_double_slit/blob/master/image_diffraction_k4.png))
+![image_diffraction_double_slit](https://github.com/marukatsutech/diffraction_double_slit/blob/master/image_diffraction_k4.png)
+![image_diffraction_double_slit](https://github.com/marukatsutech/diffraction_double_slit/blob/master/image_diffraction_k8.png)
 
 Matplotlib-animation of Python.  
 https://youtu.be/RFxWWv3aByk
