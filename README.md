@@ -12,5 +12,5 @@ https://youtu.be/RFxWWv3aByk
 * Embedded in tkinter (interactive): diffraction_double_slit_in_tkinter.py
 
 ## Reference
-Wikipedia; Diffraction
+* Wikipedia; Diffraction
 https://en.wikipedia.org/wiki/Diffraction
