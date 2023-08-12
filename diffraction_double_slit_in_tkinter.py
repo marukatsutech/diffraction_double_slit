@@ -9,7 +9,7 @@ import tkinter as tk
 
 
 def clear_dots():
-    global on_play, index, x_red, y_red, x_red_s, y_red_s, x_gray, y_gray, x_blue, y_blue, x_blue_s, y_blue_s
+    global is_play, index, x_red, y_red, x_red_s, y_red_s, x_gray, y_gray, x_blue, y_blue, x_blue_s, y_blue_s
     on_play = False
     index = 0
     tx_step.set_text("           Num of dots=" + str(index))
@@ -76,16 +76,16 @@ def change_slit_distance(value):
 
 
 def switch():
-    global on_play
-    if on_play:
-        on_play = False
+    global is_play
+    if is_play:
+        is_play = False
     else:
-        on_play = True
+        is_play = True
 
 
 def update(f):
     global index, tx_step
-    if on_play:
+    if is_play:
         if index >= dots_num_max:
             return
         index += 1
@@ -156,7 +156,7 @@ x_blue_s = []
 y_blue_s = []
 super_position_points = np.linspace(-slit_width/2, slit_width/2, 9)
 
-on_play = False
+is_play = False
 
 # Generate figure and axes
 fig = Figure()
